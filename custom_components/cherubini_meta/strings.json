@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Cherubini META",
+        "description": "Inserisci l'indirizzo del gateway METAHome e le credenziali.",
+        "data": {
+          "host": "Indirizzo IP del gateway",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Username o password errati.",
+      "cannot_connect": "Impossibile connettersi al gateway.",
+      "unknown": "Errore imprevisto."
+    },
+    "abort": {
+      "already_configured": "Questo gateway è già configurato."
+    }
+  }
+}
